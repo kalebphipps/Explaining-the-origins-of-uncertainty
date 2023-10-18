@@ -1,0 +1,31 @@
+[Config1]
+history_length = 48
+forecast_horizon = 24
+learning_rate = 0.001
+number_epochs = 300
+batch_size = 250
+hidden_size_history_network = [512, 128, 32]
+hidden_size_temporal_network = [16, 1024, 512, 256, 128, 32]
+hidden_size_history_encoder_temporal_network = 16
+test_size = 0.2
+save_path = "../Results/Germany/"
+save_name_history = "Only_History.pt"
+save_name_temporal = "Temporal.pt"
+target_var = 'load'
+descriptor = 'Input48F24'
+
+[Config2]
+history_length = 168
+forecast_horizon = 24
+learning_rate = 0.001
+number_epochs = 300
+batch_size = 250
+hidden_size_history_network = [512, 128, 32]
+hidden_size_temporal_network = [16, 1024, 512, 256, 128, 32]
+hidden_size_history_encoder_temporal_network = 32
+test_size = 0.2
+save_path = "../Results/Germany/"
+save_name_history = "Only_History.pt"
+save_name_temporal = "Temporal.pt"
+target_var = 'load'
+descriptor = 'Input168F24'

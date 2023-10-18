@@ -1,0 +1,41 @@
+[Config1]
+test_size = 0.2
+number_of_features = 3
+hidden_size_exogenous = [16, 1024, 512, 256, 128, 32]
+forecast_horizon = 24
+history_length = 48
+hidden_size_exogenous_history = 32
+learning_rate = 0.001
+hidden_size_no_temporal = [16, 512, 256, 128, 32]
+hidden_size_no_temporal_history = 32
+num_epochs = 300
+batch_size = 250
+save_path = "../Results/Solar/"
+save_exogenous_name = "Gaussian_Exogenous.pt"
+save_no_temporal_name = "Gaussian_No_Temporal.pt"
+descriptor = "F24H48"
+target_var = 'POWER'
+feature1_var = 'tclw'
+feature2_var = 'TCC'
+feature3_var = 'SSRD'
+
+[Config2]
+test_size = 0.2
+number_of_features = 3
+hidden_size_exogenous = [16, 1024, 512, 256, 128, 32]
+forecast_horizon = 24
+history_length = 168
+hidden_size_exogenous_history = 64
+learning_rate = 0.001
+hidden_size_no_temporal = [16, 512, 256, 128, 32]
+hidden_size_no_temporal_history = 64
+num_epochs = 300
+batch_size = 250
+save_path = "../Results/Solar/"
+save_exogenous_name = "Gaussian_Exogenous.pt"
+save_no_temporal_name = "Gaussian_No_Temporal.pt"
+descriptor = "F24H168"
+target_var = 'POWER'
+feature1_var = 'tclw'
+feature2_var = 'TCC'
+feature3_var = 'SSRD'

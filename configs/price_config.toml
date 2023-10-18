@@ -1,0 +1,41 @@
+[Config1]
+test_size = 0.2
+number_of_features = 2
+hidden_size_exogenous = [16, 1024, 512, 256, 128, 32]
+forecast_horizon = 24
+history_length = 48
+hidden_size_exogenous_history = 32
+learning_rate = 0.001
+hidden_size_no_temporal = [16, 512, 256, 128, 32]
+hidden_size_no_temporal_history = 32
+num_epochs = 300
+batch_size = 250
+save_path = "../Results/Price/"
+save_exogenous_name = "Gaussian_Exogenous.pt"
+save_no_temporal_name = "Gaussian_No_Temporal.pt"
+descriptor = "F24H48"
+target_var = 'Zonal Price'
+feature1_var = 'Forecasted Total Load'
+feature2_var = 'Forecasted Zonal Load'
+feature3_var = nan
+
+[Config2]
+test_size = 0.2
+number_of_features = 2
+hidden_size_exogenous = [16, 1024, 512, 256, 128, 32]
+forecast_horizon = 24
+history_length = 168
+hidden_size_exogenous_history = 32
+learning_rate = 0.001
+hidden_size_no_temporal = [16, 512, 256, 128, 32]
+hidden_size_no_temporal_history = 32
+num_epochs = 300
+batch_size = 250
+save_path = "../Results/Price/"
+save_exogenous_name = "Gaussian_Exogenous.pt"
+save_no_temporal_name = "Gaussian_No_Temporal.pt"
+descriptor = "F24H168"
+target_var = 'Zonal Price'
+feature1_var = 'Forecasted Total Load'
+feature2_var = 'Forecasted Zonal Load'
+feature3_var = nan
