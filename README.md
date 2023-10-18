@@ -1,4 +1,4 @@
-# Explaining-the-origins-of-uncertainty
+# Explaining the Origins of Uncertainty
 
 This repository contains code to replicate the results from Chapter 6 of the Dissertation "Quantifying and Interpreting
 Uncertainty in Time Series Forecasting" by Kaleb Phipps
