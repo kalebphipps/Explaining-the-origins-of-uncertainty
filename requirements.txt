@@ -51,7 +51,7 @@ json5==0.9.14
 jsonpointer==2.4
 jsonschema==4.19.0
 jsonschema-specifications==2023.7.1
-keras==2.13.1
+keras
 kiwisolver
 lazy_loader==0.3
 libclang==16.0.6
