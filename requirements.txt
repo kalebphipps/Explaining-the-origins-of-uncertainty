@@ -133,7 +133,7 @@ tikzplotlib==0.10.1
 tinycss2==1.2.1
 tomli==2.0.1
 tomlkit==0.12.1
-torch==2.2.0
+torch==2.6.0
 torchvision==0.15.2
 tornado
 tqdm
