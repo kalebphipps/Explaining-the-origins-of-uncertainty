@@ -55,7 +55,7 @@ keras
 kiwisolver
 lazy_loader==0.3
 libclang==16.0.6
-Markdown==3.4.4
+Markdown==3.8.1
 MarkupSafe
 matplotlib
 matplotlib-inline==0.1.6
